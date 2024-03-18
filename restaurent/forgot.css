@@ -1,0 +1,84 @@
+body {
+    background-color: #13b8ef;
+	background-image: url('https://cptlyne.com/wp-content/uploads/2020/11/Sans-titre-15.jpg');
+	font-family:sans-serif;
+	
+}
+
+.container {
+    
+    
+	width:375px;
+	position:absolute;
+	background: rgba(0, 0, 0, 0.5);
+	top:60%;
+	left:55%;
+	transform:translate(-50%,-50%);
+	color:#d9d9d9;
+	
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  .submit {
+    height: 10px;
+    width: 25px;
+  }
+
+  input[type="text"] {
+    height: 20px;
+    width: 65%;
+  }
+
+  input[type="password"] {
+    height: 20px;
+    width: 65%;
+  }
+  .form input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:39dc79;
+	color:#000;
+}
+.form input[type="submit"]{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#1c8adb;
+	color:#fff;
+	font-size:25px;
+	border-radius:20px;
+}
+.content p{
+	margin:3;
+	padding:3;
+}
+.content{
+	width:100%;
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+	border-bottom:1px solid #fff;
+}
+.content input{
+	background:none;
+	outline:none;
+	border:none;
+	font-size:18px;
+	color:#fff;
+	float:left;
+	width:300px;
+}
+
