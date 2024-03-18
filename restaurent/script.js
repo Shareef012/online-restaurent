@@ -46,6 +46,6 @@ function validateForm()
     alert("Not a valid e-mail address");
     return false;
  }
-    alert("Registration successfull");
+    
     return true;
  }
